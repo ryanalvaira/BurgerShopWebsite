@@ -1,4 +1,4 @@
-        const PUZZLE_DIFFICULTY = 4;
+        const PUZZLE_DIFFICULTY = 6;
         const PUZZLE_HOVER_TINT = '#009900';
 
         var _stage;

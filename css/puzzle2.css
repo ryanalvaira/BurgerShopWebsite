@@ -1,19 +1,19 @@
 /* Difficulty */
     body{
         font-family: 'Montserrat', sans-serif;
-        background-image: url("../images/menubackground.JPG");
+        background-image: url("../images/menubackground.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
     .container1{
         position:absolute;
         top:0px;
-        left:570px;
+        left:580px;
     }
     .wrapper {
         position: relative;
         width: 220px;
-        height: 425px;
+        height: 440px;
         margin:5px;
     }
     .line {
@@ -24,6 +24,7 @@
         width: 3px;
         background: white;
         z-index: 1;
+        top: 50px;
     }
     .wordwrapper {
         text-align: center;
@@ -31,11 +32,11 @@
         position: absolute;
         left: 0;
         right: 0;
-        top: 15%;
+        top: 7%;
         margin-top: -12px;
         z-index: 2; 
     }
-    .word {
+    .current-btn {
         color:white;
         background:#428bca;
         letter-spacing: 1px;
@@ -45,9 +46,9 @@
         width:70px;
         height:70px;
         border:3px solid white;
-        margin-top: 15%;
+        margin-top: 10%;
     }  
-    .word1 {
+    .other-btn {
         color:black;
         background-color:white;
         letter-spacing: 1px;
@@ -57,9 +58,9 @@
         width:70px;
         height:70px;
         border:1px solid #428bca;
-        margin-top: 15%;
+        margin-top: 10%;
     }
-    .word2 {
+    .top-btn {
         color:black;
         background-color:white;
         letter-spacing: 1px;
@@ -70,13 +71,13 @@
         height:70px;
         border:1px solid #428bca;
     }
-    .word1:hover{
+    .other-btn:hover{
         color:white;
         background:#428bca;
         border:3px solid white;
         transition:0.3s;
     }
-    .word2:hover{
+    .top-btn:hover{
         color:white;
         background:#428bca;
         border:3px solid white;
@@ -85,6 +86,7 @@
     .wordwrapper a:hover{
         text-decoration:none;
     }
+
 /* End of Difficulty */
 
 /* Content */
@@ -104,7 +106,7 @@
     h1{
         font-family: 'Bowlby One SC', cursive;
         font-size: 70px;
-        color:white;
+        color: white;
     }
 /* End of Content */
 
@@ -112,7 +114,7 @@
     .backtohome{
         font-family: 'Fredericka the Great', cursive;
         font-size: 40px;
-        margin-top: 40px;
+        margin-top: 60px;
     }
     .backtohome a{
         color: white;
@@ -129,7 +131,7 @@
     .footer{
         background-color: black;
         height: 70px;
-        margin-top: 55px;
+        margin-top: 35px;
     }
     #logo{
         width: 160px;
